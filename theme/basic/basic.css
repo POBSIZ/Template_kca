@@ -2,24 +2,59 @@
     position: relative;
 }
 
-.basic.img{    
+/* 제품 사진 및 설명 pii */
+.basic.pii.img{    
     margin: auto;
     top: 50px;
 }
-
-.basic.text_wrap{
+.basic.pii.text_wrap{
     top: 80px;
-    
-}
-.basic.text{
     text-align: center;
-    font-weight: 200;
 }
-.basic.text.title{
+.basic.pii.text{}
+.basic.pii.text.title{
     font-weight: 800;
     font-size: 20px;
 }
-.basic.text.info{
-    top: 10px;
+.basic.pii.text.info{
+    font-weight: 200;
 }    
 
+/* 제품 상세사진 psi */
+.basic.psi.img{
+    height: 750px;
+    width: 750px;
+    top: 25px;
+    margin: auto;
+}
+
+/* 브랜드 소개  pbi */
+.basic.pbi.logo{
+    display: inline-block;
+    margin: 10px;
+    width: 350px;
+    height: 350px;
+    top: 30px;
+    left: 30px;
+}
+.basic.pbi.text_wrap{
+    top: 30px;
+    left: 40px;
+    /* text-align: center; */
+}
+.basic.pbi.text{}
+.basic.pbi.text.title{
+    font-weight: 800;
+    font-size: 50px;
+}
+.basic.pbi.text.info{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+/* 제품 소재 pmi */
+.basic.pmi.img{}
+
+/* 제품 사이즈 */
+
+/* 안내사항 */
