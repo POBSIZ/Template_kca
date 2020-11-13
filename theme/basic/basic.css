@@ -1,0 +1,25 @@
+.basic{
+    position: relative;
+}
+
+.basic.img{    
+    margin: auto;
+    top: 50px;
+}
+
+.basic.text_wrap{
+    top: 80px;
+    
+}
+.basic.text{
+    text-align: center;
+    font-weight: 200;
+}
+.basic.text.title{
+    font-weight: 800;
+    font-size: 20px;
+}
+.basic.text.info{
+    top: 10px;
+}    
+
