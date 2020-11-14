@@ -17,14 +17,14 @@
     font-size: 20px;
 }
 .basic.pii.text.info{
-    font-weight: 200;
+    font-weight: 400;
 }    
 
 /* 제품 상세사진 psi */
 .basic.psi.img{
-    height: 750px;
-    width: 750px;
-    top: 25px;
+    height: 720px;
+    width: 720px;
+    top: 40px;
     margin: auto;
 }
 
@@ -40,7 +40,6 @@
 .basic.pbi.text_wrap{
     top: 30px;
     left: 40px;
-    /* text-align: center; */
 }
 .basic.pbi.text{}
 .basic.pbi.text.title{
@@ -48,12 +47,33 @@
     font-size: 50px;
 }
 .basic.pbi.text.info{
-    font-weight: 200;
+    font-weight: 400;
     font-size: 20px;
 }
 
 /* 제품 소재 pmi */
-.basic.pmi.img{}
+.basic.pmi.img{
+    width: 350px;
+    height: 350px;
+    top: 10px;
+    left: 10px;
+    margin: 25px;
+}
+.basic.pmi.text_wrap{
+    position: fixed;
+    display: inline-block;
+    width: 350px;
+    top: 25px;
+    right: 25px;
+}
+.basic.pmi.text{}
+.basic.pmi.text.title{
+    font-weight: 800;
+    font-size: 50px;
+}
+.basic.pmi.text.info{
+    font-weight: 400;
+}
 
 /* 제품 사이즈 */
 

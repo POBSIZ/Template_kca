@@ -29,7 +29,7 @@ function uploadFiles(e) {
     e.dataTransfer = e.originalEvent.dataTransfer;
     var files = e.target.files || e.dataTransfer.files;
     if (files.length > 1) {
-        alert('하나만 올려라.');
+        alert('하나만 올리십시오.');
         return;
     }
     if (files[0].type.match(/image.*/)) {
@@ -39,7 +39,7 @@ function uploadFiles(e) {
             "background-size": "100% 100%",
         });
         var text = document.querySelector('.input_img');
-        text.setAttribute("display", "none");
+        text.parentNode.removeChild(text);
     }else{
         alert('이미지가 아닙니다.');
         return;
