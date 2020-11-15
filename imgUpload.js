@@ -1,20 +1,22 @@
-setContent = setInterval(function(){
+window.onload = function(){
     $('.content')
     .on("dragover", dragOver)
     .on("dragleave", dragOver)
     .on("drop", uploadFiles);
-}, 1000);
+}
 
 function dragOver(e){
     e.stopPropagation();
     e.preventDefault();
+
+    var e_target = $(e.target);
     if (e.type == "dragover") {
-        $(e.target).css({
+        e_target.css({
             "background-color": "#F8FFF4",
             "outline-offset": "-20px"
         });
     } else {
-        $(e.target).css({
+        e_target.css({
             "background-color": "#F8FFF4",
             "outline-offset": "-10px"
         });
@@ -38,8 +40,8 @@ function uploadFiles(e) {
             "outline": "none",
             "background-size": "100% 100%",
         });
-        var text = document.querySelector('.input_img');
-        text.parentNode.removeChild(text);
+        // var text = document.querySelector('.input_img');
+        // text.parentNode.removeChild(text);
     }else{
         alert('이미지가 아닙니다.');
         return;

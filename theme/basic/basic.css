@@ -11,7 +11,6 @@
     top: 80px;
     text-align: center;
 }
-.basic.pii.text{}
 .basic.pii.text.title{
     font-weight: 800;
     font-size: 20px;
@@ -19,6 +18,20 @@
 .basic.pii.text.info{
     font-weight: 400;
 }    
+.basic.pii.text_wrap .txtChum{
+    width: 350px;
+    height: 150px;
+}
+.basic.pii.text_wrap .txtBtn{
+    color: white;
+    background-color: #474350;
+    width: 60px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 40px 40px 40px 40px;
+    margin: auto;
+    margin-top: 20px;
+}
 
 /* 제품 상세사진 psi */
 .basic.psi.img{
@@ -41,7 +54,6 @@
     top: 30px;
     left: 40px;
 }
-.basic.pbi.text{}
 .basic.pbi.text.title{
     font-weight: 800;
     font-size: 50px;
@@ -66,7 +78,6 @@
     top: 25px;
     right: 25px;
 }
-.basic.pmi.text{}
 .basic.pmi.text.title{
     font-weight: 800;
     font-size: 50px;
